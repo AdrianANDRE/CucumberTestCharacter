@@ -121,14 +121,14 @@ public class CharacterStepdefinition {
 
     }
 
-    @Given("This \\\\\"test\\\\\" works")
+    @Given("This \"test\" works")
     public void this_doublequote_test_doublequote_works() {
         System.out.println("i am alive \"test\"");
 
     }
 
 
-    @Given("This \\\\\'test\\\\\' works")
+    @Given("This \'test\' works")
     public void this_simplequote_works() {
         System.out.println("i am alive \'test\'");
 

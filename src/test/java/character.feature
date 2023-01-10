@@ -62,10 +62,10 @@ Feature: test feature character
     Given This ^^ works
     #ok
   Scenario: Test "test"
-    Given This \"test\" works
+    Given This "test" works
     #ok
-  Scenario: Test \'test\'
-    Given This \'test\' works
+  Scenario: Test 'test'
+    Given This 'test' works
     #ok
   Scenario: Test \$test
     Given This \\$test works
