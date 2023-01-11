@@ -20,7 +20,7 @@ public class CharacterStepdefinition {
 
     }
 
-    @Given("This \\\\$test works")
+    @Given("This $test works")
     public void this_dollar_test_works() {
         System.out.println("i am alive $test");
     }
@@ -72,7 +72,7 @@ public class CharacterStepdefinition {
 
     @Given("This \\{ echo test } works")
     public void this_brace_works_brace() {
-        System.out.println("\\{ echo test }");
+        System.out.println("{ echo test }");
 
     }
 
@@ -134,9 +134,9 @@ public class CharacterStepdefinition {
 
     }
 
-    @Given("This \\\\\\\\$test works")
+    @Given("This \\\\$test works")
     public void this_backslash_dollar_test_works() {
-        System.out.println("i am alive mmh $test");
+        System.out.println("i am alive \\$test");
     }
 
 
@@ -157,4 +157,16 @@ public class CharacterStepdefinition {
         System.out.println("i am alive +-_.~@€çé=àû");
 
     }
+    @Given("This * works")
+    public void this_asterisk_works() {
+        System.out.println("i am alive *");
+
+    }
+
+    @Given("This , works")
+    public void this_comma_works() {
+        System.out.println("i am alive ,");
+
+    }
+
 }

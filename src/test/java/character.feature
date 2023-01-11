@@ -11,7 +11,7 @@ Feature: test feature character
     Given This ` echo test ` works
     #ok
   Scenario: Test $test
-    Given This \$test works
+    Given This $test works
     #ok
   Scenario: Test & echo toto
     Given This & echo toto works
@@ -68,7 +68,7 @@ Feature: test feature character
     Given This 'test' works
     #ok
   Scenario: Test \$test
-    Given This \\$test works
+    Given This \$test works
     #ok
   Scenario: Test !
     Given This ! works
@@ -78,3 +78,9 @@ Feature: test feature character
     #ok
   Scenario: Test +-_.~@€çé=àû
     Given This +-_.~@€çé=àû works
+    #ok
+  Scenario: Test *
+    Given This * works
+    #ok
+  Scenario: Test ,
+    Given This , works
