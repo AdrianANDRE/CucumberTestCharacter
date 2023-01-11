@@ -17,13 +17,9 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.2.3</version>
+            <version>4.2.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-suite</artifactId>
-            <version>1.8.2</version>
-        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -37,13 +33,9 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>7.2.3</version>
+            <version>4.2.2</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.1.1</version>
-        </dependency>
+
     </dependencies>
     <build>
         <plugins>

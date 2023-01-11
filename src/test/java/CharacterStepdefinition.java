@@ -1,4 +1,5 @@
-import io.cucumber.java.en.Given;
+import cucumber.api.java.en.Given;
+
 
 public class CharacterStepdefinition {
 
