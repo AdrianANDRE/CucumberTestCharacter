@@ -76,11 +76,35 @@ Feature: test feature character
   Scenario: Test ?
     Given This ? works
     #ok
-  Scenario: Test +-_.~@€çé=àû
-    Given This +-_.~@€çé=àû works
-    #ok
   Scenario: Test *
     Given This * works
     #ok
   Scenario: Test ,
     Given This , works
+  Scenario: Test .
+    Given This . works
+  Scenario: Test +
+    Given This + works
+  Scenario: Test -
+    Given This - works
+  Scenario: Test _
+    Given This _ works
+  Scenario: Test ~
+    Given This ~ works
+  Scenario: Test @
+    Given This @ works
+  Scenario: Test €
+    Given This € works
+  Scenario: Test ç
+    Given This ç works
+  Scenario: Test é
+    Given : This é works
+  Scenario: Test =
+    Given This = works
+  Scenario: Test à
+    Given This à works
+  Scenario: Test û
+    Given This û works
+  Scenario: Test ./test
+    Given This ./test works
+  
