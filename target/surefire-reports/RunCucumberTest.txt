@@ -1,4 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.945 sec
+Tests run: 68, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.315 sec <<< FAILURE!
+Test +-_.~@€חי=אû(test feature character #1)  Time elapsed: 0.046 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'This +-_.~@€חי=אû works' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("This +-_.~@€חי=אû works")
+public void this_€חי_אû_works() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
